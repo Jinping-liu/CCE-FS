@@ -1,0 +1,157 @@
+{
+  "feature_dtypes": {
+    "priors_count": "int64",
+    "sex": "object",
+    "race": "object",
+    "age_cat": "object",
+    "c_charge_degree": "object",
+    "two_year_recid": "int64"
+  },
+  "target_name": "two_year_recid",
+  "target_index": 5,
+  "feature_names": [
+    "priors_count",
+    "sex",
+    "race",
+    "age_cat",
+    "c_charge_degree"
+  ],
+  "features_to_vary": [
+    "c_charge_degree",
+    "priors_count"
+  ],
+  "features_not_to_vary": [
+    "race",
+    "age_cat",
+    "sex"
+  ],
+  "continuous_feature_names": [
+    "priors_count"
+  ],
+  "category_feature_names": [
+    "sex",
+    "race",
+    "age_cat",
+    "c_charge_degree"
+  ],
+  "continuous_feature_index": [
+    0
+  ],
+  "category_feature_index": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "feature_range": {
+    "sex": [
+      "Male",
+      "Female"
+    ],
+    "race": [
+      "Other",
+      "African-American",
+      "Caucasian",
+      "Hispanic",
+      "Native American",
+      "Asian"
+    ],
+    "age_cat": [
+      "Greater than 45",
+      "25 - 45",
+      "Less than 25"
+    ],
+    "c_charge_degree": [
+      "F",
+      "M"
+    ],
+    "priors_count": [
+      0,
+      38
+    ]
+  },
+  "classes": [
+    0,
+    1
+  ],
+  "one_hot_train_sequence": [
+    "priors_count",
+    "sex_Female",
+    "sex_Male",
+    "race_African-American",
+    "race_Asian",
+    "race_Caucasian",
+    "race_Hispanic",
+    "race_Native American",
+    "race_Other",
+    "age_cat_25 - 45",
+    "age_cat_Greater than 45",
+    "age_cat_Less than 25",
+    "c_charge_degree_F",
+    "c_charge_degree_M"
+  ],
+  "one_hot_test_sequence": [
+    "priors_count",
+    "sex_Female",
+    "sex_Male",
+    "race_African-American",
+    "race_Asian",
+    "race_Caucasian",
+    "race_Hispanic",
+    "race_Native American",
+    "race_Other",
+    "age_cat_25 - 45",
+    "age_cat_Greater than 45",
+    "age_cat_Less than 25",
+    "c_charge_degree_F",
+    "c_charge_degree_M"
+  ],
+  "xl": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "xu": [
+    38,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "one_hot_index": {
+    "priors_count": 0,
+    "sex_Female": 1,
+    "sex_Male": 2,
+    "race_African-American": 3,
+    "race_Asian": 4,
+    "race_Caucasian": 5,
+    "race_Hispanic": 6,
+    "race_Native American": 7,
+    "race_Other": 8,
+    "age_cat_25 - 45": 9,
+    "age_cat_Greater than 45": 10,
+    "age_cat_Less than 25": 11,
+    "c_charge_degree_F": 12,
+    "c_charge_degree_M": 13
+  }
+}

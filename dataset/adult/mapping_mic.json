@@ -1,0 +1,218 @@
+{
+  "feature_dtypes": {
+    "age": "int64",
+    "education": "object",
+    "marital_status": "object",
+    "relationship": "object",
+    "gender": "object",
+    "hours_per_week": "int64",
+    "income": "int64"
+  },
+  "target_name": "income",
+  "target_index": 6,
+  "feature_names": [
+    "age",
+    "education",
+    "marital_status",
+    "relationship",
+    "gender",
+    "hours_per_week"
+  ],
+  "features_to_vary": [
+    "relationship",
+    "hours_per_week",
+    "education",
+    "gender",
+    "age",
+    "marital_status"
+  ],
+  "features_not_to_vary": [],
+  "continuous_feature_names": [
+    "age",
+    "hours_per_week"
+  ],
+  "category_feature_names": [
+    "education",
+    "marital_status",
+    "relationship",
+    "gender"
+  ],
+  "continuous_feature_index": [
+    0,
+    5
+  ],
+  "category_feature_index": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "feature_range": {
+    "education": [
+      "Bachelors",
+      "HS-grad",
+      "School",
+      "Masters",
+      "Some-college",
+      "Assoc",
+      "Doctorate",
+      "Prof-school"
+    ],
+    "marital_status": [
+      "Single",
+      "Married",
+      "Divorced",
+      "Separated",
+      "Widowed"
+    ],
+    "relationship": [
+      "Not-in-family",
+      "Husband",
+      "Wife",
+      "Own-child",
+      "Unmarried",
+      "Other-relative"
+    ],
+    "gender": [
+      "Male",
+      "Female"
+    ],
+    "age": [
+      17,
+      90
+    ],
+    "hours_per_week": [
+      1,
+      99
+    ]
+  },
+  "classes": [
+    0,
+    1
+  ],
+  "one_hot_train_sequence": [
+    "age",
+    "hours_per_week",
+    "education_Assoc",
+    "education_Bachelors",
+    "education_Doctorate",
+    "education_HS-grad",
+    "education_Masters",
+    "education_Prof-school",
+    "education_School",
+    "education_Some-college",
+    "marital_status_Divorced",
+    "marital_status_Married",
+    "marital_status_Separated",
+    "marital_status_Single",
+    "marital_status_Widowed",
+    "relationship_Husband",
+    "relationship_Not-in-family",
+    "relationship_Other-relative",
+    "relationship_Own-child",
+    "relationship_Unmarried",
+    "relationship_Wife",
+    "gender_Female",
+    "gender_Male"
+  ],
+  "one_hot_test_sequence": [
+    "age",
+    "hours_per_week",
+    "education_Assoc",
+    "education_Bachelors",
+    "education_Doctorate",
+    "education_HS-grad",
+    "education_Masters",
+    "education_Prof-school",
+    "education_School",
+    "education_Some-college",
+    "marital_status_Divorced",
+    "marital_status_Married",
+    "marital_status_Separated",
+    "marital_status_Single",
+    "marital_status_Widowed",
+    "relationship_Husband",
+    "relationship_Not-in-family",
+    "relationship_Other-relative",
+    "relationship_Own-child",
+    "relationship_Unmarried",
+    "relationship_Wife",
+    "gender_Female",
+    "gender_Male"
+  ],
+  "xl": [
+    17,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "xu": [
+    90,
+    99,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "one_hot_index": {
+    "age": 0,
+    "hours_per_week": 1,
+    "education_Assoc": 2,
+    "education_Bachelors": 3,
+    "education_Doctorate": 4,
+    "education_HS-grad": 5,
+    "education_Masters": 6,
+    "education_Prof-school": 7,
+    "education_School": 8,
+    "education_Some-college": 9,
+    "marital_status_Divorced": 10,
+    "marital_status_Married": 11,
+    "marital_status_Separated": 12,
+    "marital_status_Single": 13,
+    "marital_status_Widowed": 14,
+    "relationship_Husband": 15,
+    "relationship_Not-in-family": 16,
+    "relationship_Other-relative": 17,
+    "relationship_Own-child": 18,
+    "relationship_Unmarried": 19,
+    "relationship_Wife": 20,
+    "gender_Female": 21,
+    "gender_Male": 22
+  }
+}

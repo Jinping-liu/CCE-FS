@@ -1,0 +1,206 @@
+{
+  "feature_dtypes": {
+    "age": "int64",
+    "occupation": "object",
+    "marital_status": "object",
+    "relationship": "object",
+    "gender": "object",
+    "hours_per_week": "int64",
+    "income": "int64"
+  },
+  "target_name": "income",
+  "target_index": 6,
+  "feature_names": [
+    "age",
+    "occupation",
+    "marital_status",
+    "relationship",
+    "gender",
+    "hours_per_week"
+  ],
+  "features_to_vary": [
+    "gender",
+    "occupation",
+    "marital_status",
+    "age",
+    "hours_per_week",
+    "relationship"
+  ],
+  "features_not_to_vary": [],
+  "continuous_feature_names": [
+    "age",
+    "hours_per_week"
+  ],
+  "category_feature_names": [
+    "occupation",
+    "marital_status",
+    "relationship",
+    "gender"
+  ],
+  "continuous_feature_index": [
+    0,
+    5
+  ],
+  "category_feature_index": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "feature_range": {
+    "occupation": [
+      "White-Collar",
+      "Blue-Collar",
+      "Professional",
+      "Service",
+      "Sales",
+      "Other/Unknown"
+    ],
+    "marital_status": [
+      "Single",
+      "Married",
+      "Divorced",
+      "Separated",
+      "Widowed"
+    ],
+    "relationship": [
+      "Not-in-family",
+      "Husband",
+      "Wife",
+      "Own-child",
+      "Unmarried",
+      "Other-relative"
+    ],
+    "gender": [
+      "Male",
+      "Female"
+    ],
+    "age": [
+      17,
+      90
+    ],
+    "hours_per_week": [
+      1,
+      99
+    ]
+  },
+  "classes": [
+    0,
+    1
+  ],
+  "one_hot_train_sequence": [
+    "age",
+    "hours_per_week",
+    "occupation_Blue-Collar",
+    "occupation_Other/Unknown",
+    "occupation_Professional",
+    "occupation_Sales",
+    "occupation_Service",
+    "occupation_White-Collar",
+    "marital_status_Divorced",
+    "marital_status_Married",
+    "marital_status_Separated",
+    "marital_status_Single",
+    "marital_status_Widowed",
+    "relationship_Husband",
+    "relationship_Not-in-family",
+    "relationship_Other-relative",
+    "relationship_Own-child",
+    "relationship_Unmarried",
+    "relationship_Wife",
+    "gender_Female",
+    "gender_Male"
+  ],
+  "one_hot_test_sequence": [
+    "age",
+    "hours_per_week",
+    "occupation_Blue-Collar",
+    "occupation_Other/Unknown",
+    "occupation_Professional",
+    "occupation_Sales",
+    "occupation_Service",
+    "occupation_White-Collar",
+    "marital_status_Divorced",
+    "marital_status_Married",
+    "marital_status_Separated",
+    "marital_status_Single",
+    "marital_status_Widowed",
+    "relationship_Husband",
+    "relationship_Not-in-family",
+    "relationship_Other-relative",
+    "relationship_Own-child",
+    "relationship_Unmarried",
+    "relationship_Wife",
+    "gender_Female",
+    "gender_Male"
+  ],
+  "xl": [
+    17,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "xu": [
+    90,
+    99,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "one_hot_index": {
+    "age": 0,
+    "hours_per_week": 1,
+    "occupation_Blue-Collar": 2,
+    "occupation_Other/Unknown": 3,
+    "occupation_Professional": 4,
+    "occupation_Sales": 5,
+    "occupation_Service": 6,
+    "occupation_White-Collar": 7,
+    "marital_status_Divorced": 8,
+    "marital_status_Married": 9,
+    "marital_status_Separated": 10,
+    "marital_status_Single": 11,
+    "marital_status_Widowed": 12,
+    "relationship_Husband": 13,
+    "relationship_Not-in-family": 14,
+    "relationship_Other-relative": 15,
+    "relationship_Own-child": 16,
+    "relationship_Unmarried": 17,
+    "relationship_Wife": 18,
+    "gender_Female": 19,
+    "gender_Male": 20
+  }
+}

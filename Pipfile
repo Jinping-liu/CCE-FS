@@ -1,0 +1,36 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+no-cache-dir = false
+
+[packages]
+numpy = "*"
+pandas = "*"
+scipy = "*"
+scikit-learn = "*"
+matplotlib = "*"
+ipykernel = "*"
+ffmpeg = "*"
+openpyxl = "*"
+causal-learn = "*"
+graphviz = "*"
+pydot = "*"
+cdt = "*"
+torch = "*"
+causalinference = "*"
+rpy2 = "*"
+causalnex = "*"
+pygraphviz = "*"
+torchvision = "*"
+torchaudio = "*"
+dask = "*"
+distributed = "*"
+joblib = "*"
+kneed = "*"
+lightgbm = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.9"
